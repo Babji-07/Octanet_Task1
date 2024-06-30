@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #000000;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    border-color: #fff;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .links li {
+    margin-left: 2rem;
+  }
+  
+  .links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .hero {
+    background: url("https://www.ecotravelschristchurch.co.nz/wp-content/uploads/2022/06/Factors-To-Consider-While-Selecting-The-Best-Travel-Agency-In-South-Island-scaled.jpg") no-repeat center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .content {
+    max-width: 800px;
+  }
+  
+  .btn {
+    background: #47d1ff;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    display: inline-block;
+  }
+  
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem 1rem;
+    background: #f4f4f4;
+  }
+  
+  .feature {
+    flex: 1 1 300px;
+    margin: 1rem;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #000000;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  @media (max-width: 766px) {
+    .links {
+      flex-direction: column;
+    }
+  
+    .links li {
+      margin: 0.5rem 0;
+    }
+  
+    .hero {
+      height: 50vh;
+    }
+  
+    .btn {
+      font-size: 1rem;
+      padding: 0.8rem 1.5rem;
+    }
+  
+    .features {
+      flex-direction: column;
+    }
+  }
